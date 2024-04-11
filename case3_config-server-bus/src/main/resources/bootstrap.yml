@@ -7,9 +7,10 @@ spring:
         git:
           uri: https://github.com/ErikMarquesSilva/config-repo-sample.git
           basedir: /Users/erik-marques/repos/config-repo-sample
-          default-label: master
+          default-label: develop
           clone-on-start: true
           refreshRate: 5
+          force-refresh: true
           force-update: true
           force-pull: true
           timeout: 500

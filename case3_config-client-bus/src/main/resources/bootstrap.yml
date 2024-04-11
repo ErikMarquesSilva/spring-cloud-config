@@ -5,7 +5,7 @@ spring:
     config:
       name: myconfig-client-app
       uri: http://localhost:8888
-      label: master
+      label: develop
     bus:
       enabled: true
     stream:
