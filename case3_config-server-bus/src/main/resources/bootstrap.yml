@@ -1,12 +1,13 @@
 server:
   port: 8888
 spring:
+  profiles:
+    active: composite
   cloud:
     config:
       server:
+        bootstrap: true
         git:
-          uri: https://github.com/ErikMarquesSilva/config-repo-sample.git
-          basedir: /Users/erik-marques/repos/config-repo-sample
           default-label: develop
           clone-on-start: true
           refreshRate: 5
@@ -15,6 +16,29 @@ spring:
           force-pull: true
           timeout: 500
           deleteUntrackedBranches: true
+        composite:
+          -
+            type: git
+            uri: https://github.com/ErikMarquesSilva/config-repo.git
+            basedir: /Users/erik-marques/repos/config-repo
+            default-label: develop
+            clone-on-start: true
+            refreshRate: 30
+            force-update: true
+            force-pull: true
+            timeout: 500
+            deleteUntrackedBranches: true
+          -
+            type: git
+            uri: https://github.com/ErikMarquesSilva/config-repo-sample.git
+            basedir: /Users/erik-marques/repos/config-repo-sample
+            default-label: develop
+            clone-on-start: true
+            refreshRate: 30
+            force-update: true
+            force-pull: true
+            timeout: 500
+            deleteUntrackedBranches: true
     bus:
       enabled: true
       id: my-config-server

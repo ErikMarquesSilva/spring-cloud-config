@@ -1,0 +1,5 @@
+/Users/erik-marques/Projects/spring-cloud-config/case3_config-client-bus/src/main/java/com/javalopment/springboot/configclient/MyRefreshRemoteApplicationEvent.java
+/Users/erik-marques/Projects/spring-cloud-config/case3_config-client-bus/src/main/java/com/javalopment/springboot/configclient/AppConfig.java
+/Users/erik-marques/Projects/spring-cloud-config/case3_config-client-bus/src/main/java/com/javalopment/springboot/configclient/TestController.java
+/Users/erik-marques/Projects/spring-cloud-config/case3_config-client-bus/src/main/java/com/javalopment/springboot/configclient/MyRefreshEventListener.java
+/Users/erik-marques/Projects/spring-cloud-config/case3_config-client-bus/src/main/java/com/javalopment/springboot/configclient/ConfigClientApplication.java

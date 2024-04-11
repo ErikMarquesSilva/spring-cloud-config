@@ -1,0 +1,5 @@
+com/javalopment/springboot/configclient/MyRefreshRemoteApplicationEvent.class
+com/javalopment/springboot/configclient/MyRefreshEventListener.class
+com/javalopment/springboot/configclient/AppConfig.class
+com/javalopment/springboot/configclient/TestController.class
+com/javalopment/springboot/configclient/ConfigClientApplication.class

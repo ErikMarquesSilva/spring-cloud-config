@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cac1ee4-d20e-4bcd-866e-c130897ab87c" name="Changes" comment="" />
+    <list default="true" id="6cac1ee4-d20e-4bcd-866e-c130897ab87c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../case3_config-server-bus/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../case3_config-server-bus/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/erik-marques/Projects/spring-cloud-config/case3_config-client-2-bus"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erik-marques/Projects/spring-cloud-config/case3_config-client-2-bus&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javalopment.springboot.configclient.ConfigClientApplication" />

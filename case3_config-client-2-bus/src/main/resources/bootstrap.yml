@@ -1,0 +1,22 @@
+server:
+    port: 8081
+spring:
+  application:
+    name: feature-toggles
+  cloud:
+    config:
+      name: feature-toggles
+      uri: http://localhost:8888
+      label: develop
+    bus:
+      enabled: true
+    stream:
+      kafka:
+        binder:
+          zkNodes: localhost:2181
+          brokers: localhost:9093
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
