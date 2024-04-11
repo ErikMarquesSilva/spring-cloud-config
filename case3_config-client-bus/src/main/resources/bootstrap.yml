@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: myconfig-client-app
+  cloud:
+    config:
+      name: myconfig-client-app
+      uri: http://localhost:8888
+      label: master
+    bus:
+      enabled: true
+    stream:
+      kafka:
+        binder:
+          zkNodes: localhost:2181
+          brokers: localhost:9093
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

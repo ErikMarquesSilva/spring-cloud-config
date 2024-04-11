@@ -1,0 +1,24 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ErikMarquesSilva/config-repo-sample.git
+          basedir: /Users/erik-marques/repos/config-repo-sample
+          default-label: master
+          clone-on-start: true
+          refreshRate: 5
+          force-update: true
+          force-pull: true
+          timeout: 500
+          deleteUntrackedBranches: true
+    bus:
+      enabled: true
+      id: my-config-server
+    stream:
+      kafka:
+        binder:
+          zkNodes: localhost:2181
+          brokers: localhost:9093
