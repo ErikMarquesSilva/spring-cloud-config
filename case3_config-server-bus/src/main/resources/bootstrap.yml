@@ -7,23 +7,15 @@ spring:
     config:
       server:
         bootstrap: true
-        git:
-          default-label: develop
-          clone-on-start: true
-          refreshRate: 5
-          force-refresh: true
-          force-update: true
-          force-pull: true
-          timeout: 500
-          deleteUntrackedBranches: true
         composite:
           -
             type: git
             uri: https://github.com/ErikMarquesSilva/config-repo.git
             basedir: /Users/erik-marques/repos/config-repo
+            label: develop
             default-label: develop
             clone-on-start: true
-            refreshRate: 30
+            refreshRate: 5
             force-update: true
             force-pull: true
             timeout: 500
@@ -32,9 +24,10 @@ spring:
             type: git
             uri: https://github.com/ErikMarquesSilva/config-repo-sample.git
             basedir: /Users/erik-marques/repos/config-repo-sample
+            label: develop
             default-label: develop
             clone-on-start: true
-            refreshRate: 30
+            refreshRate: 5
             force-update: true
             force-pull: true
             timeout: 500
